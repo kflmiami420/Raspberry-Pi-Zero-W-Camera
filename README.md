@@ -77,4 +77,17 @@ sudo apt-get install python-picamera
       </div>
   </div>
 
+Snapping a Picture With Your Raspberry Pi
+By now you should have a Raspberry Pi hooked up to an enabled camera module, and everything mounted in a case. You’re now ready to take a photo.
 
+Open a terminal window, and enter this simple command:
+
+raspistill -o image.jpg
+This test photo can be found in the Pictures directory on your Raspberry Pi desktop. Other commands are possible.
+
+For example, if the photo is upside down, you can use the -vf and -hf flags to flip the vertical and horizontal axes.
+
+raspistill -vf -hf -o image.jpg
+For a full list of commands for taking photos, enter the single command:
+
+raspistill
