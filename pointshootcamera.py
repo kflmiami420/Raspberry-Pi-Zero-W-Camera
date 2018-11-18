@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# this file is run using this command: "sudo python camera.py"
+# this file is run using this command: "sudo python pointshootcamera.py"
 # python must be installed, and you must call the command while
 # you are in the same folder as the file
 from time import sleep
